@@ -89,19 +89,20 @@ body {
 }
 
 /* HERO */
-.hero {
+body {
+  margin: 0;
+}
 
+.hero {
+  min-height: calc(100vh - 80px);
   display: flex;
   align-items: center;
   justify-content: center;
-   text-align: center;
+  text-align: center;
 }
 
 .hero-container {
-
-  margin-top: 40px; /* small offset only */
-  width: 100%;
-  max-width: 1100px;  /* increase width */
+  max-width: 1100px;
   margin: 0 auto;
 }
 
