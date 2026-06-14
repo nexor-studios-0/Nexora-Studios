@@ -89,15 +89,18 @@ body {
 }
 
 /* HERO */
-.hero {
+..hero {
   height: 100vh;
   display: flex;
   align-items: center;
-  text-align: center;
+  justify-content: center;   /* CENTER horizontally */
+  text-align: center;        /* text center */
 }
 
 .hero-container {
   width: 100%;
+  max-width: 800px;
+  margin: 0 auto;   /* CENTER block */
 }
 
 /* HERO TITLE */
