@@ -184,9 +184,9 @@ body {
 }
 
 /* RESPONSIVE */
-@media (max-width: 768px) {
+@media (max-width: 64px) {
   .hero {
-    min-height: calc(100vh - 60px); /* navbar chhota hota hai mobile me */
+    min-height: calc(100vh - 525px); /* navbar chhota hota hai mobile me */
     padding-top: 20px; /* thoda push down */
   }
 
