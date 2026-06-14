@@ -105,12 +105,10 @@ body {
 
 /* HERO TITLE */
 .hero-title {
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 1.2;
-  opacity: 0;
-  transform: translateY(40px);
-  animation: fadeUp 1s ease forwards;
+  max-width: 650px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.3;
 }
 
 .hero-title span {
