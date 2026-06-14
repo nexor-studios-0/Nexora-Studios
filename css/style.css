@@ -21,9 +21,7 @@ body {
   background: var(--bg-black);
   color: var(--text-light);
   line-height: 1.6;
-  overflow-x: hidden;
-
-  padding-top: 80px; /* 👈 YAHAN ADD KARNA HAI */
+   overflow-x: hidden;
 }
 
 /* CONTAINER */
@@ -96,11 +94,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
-
+   text-align: center;
 }
 
 .hero-container {
+  
+  margin-top: 60px; /* small offset only */
   width: 100%;
   max-width: 1100px;  /* increase width */
   margin: 0 auto;
