@@ -100,7 +100,7 @@ body {
 
 .hero-container {
 
-  margin-top: 0; /* small offset only */
+  margin-top: 40px; /* small offset only */
   width: 100%;
   max-width: 1100px;  /* increase width */
   margin: 0 auto;
