@@ -184,10 +184,10 @@ body {
 }
 
 /* RESPONSIVE */
-@media (max-width: 64px) {
+@media (max-width: 728px) {
   .hero {
     min-height: calc(150vh - 600px); /* navbar chhota hota hai mobile me */
-    padding-top: 20px; /* thoda push down */
+    padding-top: 50px; /* thoda push down */
   }
 
   .hero-title {
