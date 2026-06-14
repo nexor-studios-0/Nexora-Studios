@@ -125,6 +125,7 @@ body {
 .hero-subtitle {
   margin-top: 40px;
   font-size: 18px;
+  align-items: center;
   color: #aaa;
   opacity: 0;
   transform: translateY(40px);
