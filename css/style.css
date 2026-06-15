@@ -185,10 +185,14 @@ body {
 
 /* RESPONSIVE */
 @media (max-width: 720px) {
+  body {
+    padding-top: 60px; /* adjust based on navbar height */
+  }
   .hero-content {
     position: static;
     transform: none;
     text-align: center;
+    margin-top: 20px;
   }
 }
 
