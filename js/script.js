@@ -1,4 +1,4 @@
-// FINAL CLEAN SCRIPT (ONLY ONE OBSERVER)
+// CLEAN FINAL SCRIPT (NO DUPLICATES)
 
 const elements = document.querySelectorAll(
   ".feature-card, .portfolio-card, .testimonial-card, .pricing-card"
