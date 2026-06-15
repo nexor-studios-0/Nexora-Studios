@@ -202,7 +202,7 @@ body {
 
 @media (min-width: 1024px) {
   .hero h1 {
-    font-size: 74px;
+    font-size: 40px;
   }
 }
 
@@ -479,6 +479,6 @@ html {
 }
 
 .hero h1 {
-  font-size: 72px;
+  font-size: 38px;
   line-height: 1.2;
 }
