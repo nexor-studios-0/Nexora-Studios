@@ -546,7 +546,8 @@ section {
 }
 
 .hero-trust {
-  margin-top: 200px;
+  margin-top: 20px;
   font-size: 15px;
+  text-align: center;
   color: rgba(156, 35, 35, 0.6);
 }
