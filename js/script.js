@@ -15,3 +15,4 @@ const scrollObserver = new IntersectionObserver((entries) => {
 });
 
 elements.forEach((el) => scrollObserver.observe(el));
+
