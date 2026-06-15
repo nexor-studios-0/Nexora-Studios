@@ -39,8 +39,8 @@ body {
   width: 100%;
 
   display: flex;
-  justify-content: center;  /* center logo */
-  align-items: center;
+ justify-content: flex-start;
+padding-left: 20px;
 
   padding: 20px 0;
   z-index: 1000;
@@ -55,7 +55,7 @@ body {
 }
 
 .logo {
-  
+
   font-size: 20px;
   font-weight: 600;
   letter-spacing: 1px;
