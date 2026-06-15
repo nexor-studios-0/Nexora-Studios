@@ -552,3 +552,29 @@ section {
   text-align: center;
   color: rgba(0, 255, 21, 0.74);
 }
+
+.hero-title {
+  background: linear-gradient(90deg, #ffffff, #6c63ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.primary-btn {
+  box-shadow: 0 0 20px rgba(108, 99, 255, 0.4);
+}
+
+section {
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.feature-card,
+.portfolio-card,
+.pricing-card {
+  transition: 0.3s;
+}
+
+.feature-card:hover,
+.portfolio-card:hover,
+.pricing-card:hover {
+  transform: translateY(-5px) scale(1.02);
+}
