@@ -37,6 +37,11 @@ body {
   width: 100%;
   top: 0;
   left: 0;
+  display: flex;                /* ADD */
+  justify-content: space-between; /* ADD */
+  align-items: center;          /* ADD */
+  padding: 0 16px;              /* ADD */
+  box-sizing: border-box;       /* ADD */
   backdrop-filter: blur(12px);
   background: rgba(10, 10, 10, 0.6);
   border-bottom: 1px solid var(--border);
@@ -47,7 +52,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0;
+  width: 100%;
 }
 
 .logo {
@@ -77,6 +82,8 @@ body {
   background: var(--accent);
   border: none;
   padding: 10px 18px;
+   white-space: nowrap;   /* ADD */
+  flex-shrink: 0;        /* ADD */
   color: white;
   border-radius: 8px;
   cursor: pointer;
@@ -91,14 +98,15 @@ body {
 /* HERO */
 body {
   margin: 0;
+   padding-top: 70px; /* navbar height */
 }
 
 .hero {
-  min-height: calc(100vh - 525px);
+
   display: flex;
-  align-items: center;
+  align-items: flex-start; /* center hata */
   justify-content: center;
-  text-align: center;
+  padding-top: 120px; /* manual control */
 }
 
 .hero-container {
@@ -184,11 +192,10 @@ body {
 }
 
 /* RESPONSIVE */
-@media (max-width: 720px) {
-  .hero-content {
-    position: static;
-    transform: none;
-    text-align: center;
+@media (max-width: 768px) {
+  .hero {
+    padding-top: 100px;
+    min-height: auto;
   }
 }
 
@@ -200,7 +207,7 @@ body {
   .hero-container {
     padding: 0 20px;
   }
-}
+
 
 /* FEATURES SECTION */
 .features {
