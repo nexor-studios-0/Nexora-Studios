@@ -502,3 +502,8 @@ section {
   opacity: 1 !important;
   transform: none !important;
 }
+
+.hidden {
+  opacity: 1;   /* DON'T HIDE */
+  transform: none;
+}

@@ -1,4 +1,6 @@
-// SCROLL REVEAL ANIMATION
+// SCROLL REVEAL ANIMATION (FIXED)
+
+const sections = document.querySelectorAll("section");
 
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
@@ -10,3 +12,6 @@ const observer = new IntersectionObserver((entries) => {
   threshold: 0.2
 });
 
+sections.forEach((section) => {
+  observer.observe(section); // 👈 THIS WAS MISSING
+});
