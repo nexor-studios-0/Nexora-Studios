@@ -61,12 +61,6 @@ body {
   font-size: 20px;
 }
 
-nav {
-  flex: 1;
-  display: flex;
-  justify-content: center; /* CENTER LINKS */
-}
-
 .nav-links {
   list-style: none;
   display: flex;
