@@ -33,29 +33,27 @@ body {
 
 /* NAVBAR */
 .navbar {
-  position: absolute;   /* important change */
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
 
-  display: flex;
- justify-content: flex-start;
-padding-left: 60px;
+  backdrop-filter: blur(12px);
+  background: rgba(10, 10, 10, 0.6);
+  border-bottom: 1px solid rgba(255,255,255,0.08);
 
-  padding: 20px 0;
   z-index: 1000;
 }
 
 .nav-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;  /* logo center */
   align-items: center;
-  width: 100%;
-  padding-right: 16px;
+
+  padding: 16px 20px;
 }
 
 .logo {
-
   font-size: 20px;
   font-weight: 600;
   letter-spacing: 1px;
