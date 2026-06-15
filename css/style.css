@@ -535,3 +535,41 @@ section {
 .show {
   animation: fadeUp 0.6s ease forwards;
 }
+
+section h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+section {
+  text-align: center;
+}
+
+.features-grid,
+.portfolio-grid,
+.pricing-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+/* PRICING CENTER FIX */
+
+.pricing-card {
+  text-align: center;
+}
+
+.pricing-card ul {
+  padding: 0;
+  list-style: none;
+}
+
+.pricing-card li {
+  text-align: center;
+}
+
+.pricing-card button {
+  margin: 20px auto 0;
+  display: block;
+}
