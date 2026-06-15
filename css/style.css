@@ -521,3 +521,17 @@ section {
     transform: translateY(0);
   }
 }
+
+/* START VISIBLE (IMPORTANT) */
+.feature-card,
+.portfolio-card,
+.testimonial-card,
+.pricing-card {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ANIMATION CLASS */
+.show {
+  animation: fadeUp 0.6s ease forwards;
+}
