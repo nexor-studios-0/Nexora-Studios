@@ -1,10 +1,10 @@
-// SCROLL ANIMATION (FINAL CLEAN)
+// FINAL CLEAN SCRIPT (ONLY ONE OBSERVER)
 
 const elements = document.querySelectorAll(
   ".feature-card, .portfolio-card, .testimonial-card, .pricing-card"
 );
 
-const observer = new IntersectionObserver((entries) => {
+const scrollObserver = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     if (entry.isIntersecting) {
       entry.target.classList.add("show");
@@ -14,4 +14,4 @@ const observer = new IntersectionObserver((entries) => {
   threshold: 0.2
 });
 
-elements.forEach((el) => observer.observe(el));
+elements.forEach((el) => scrollObserver.observe(el));
