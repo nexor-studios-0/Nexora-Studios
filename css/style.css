@@ -53,6 +53,7 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  padding-right: 16px;
 }
 
 .logo {
@@ -82,12 +83,14 @@ body {
   background: var(--accent);
   border: none;
   padding: 10px 18px;
-   white-space: nowrap;   /* ADD */
+  white-space: nowrap;   /* ADD */
   flex-shrink: 0;        /* ADD */
   color: white;
   border-radius: 8px;
   cursor: pointer;
   transition: 0.3s ease;
+  padding: 8px 14px;
+  font-size: 14px;
 }
 
 .cta-btn:hover {
@@ -196,6 +199,9 @@ body {
   .hero {
     padding-top: 100px;
     min-height: auto;
+  }
+   .nav-links {
+    display: none;
   }
 }
 
