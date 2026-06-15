@@ -503,7 +503,8 @@ section {
   transform: none !important;
 }
 
-.hidden {
-  opacity: 1;   /* DON'T HIDE */
-  transform: none;
+* {
+  opacity: 1 !important;
+  transform: none !important;
+  visibility: visible !important;
 }
