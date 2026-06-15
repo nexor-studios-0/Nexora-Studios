@@ -184,11 +184,13 @@ body {
 }
 
 /* RESPONSIVE */
-@media (max-width: 728px) {
-  .hero {
-    min-height: calc(150vh - 600px); /* navbar chhota hota hai mobile me */
-    padding-top: 50px; /* thoda push down */
+@media (max-width: 768px) {
+  .hero-content {
+    position: static;
+    transform: none;
+    text-align: center;
   }
+}
 
   .hero-title {
     font-size: 30px;
