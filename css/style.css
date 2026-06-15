@@ -110,6 +110,7 @@ body {
   align-items: flex-start; /* center hata */
   justify-content: center;
   padding-top: 120px; /* manual control */
+  font-size: 80px;
 }
 
 .hero-container {
